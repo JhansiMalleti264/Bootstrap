@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: rgb(112, 154, 4);
+}
+
+.navbar-brand span {
+  color: rgb(7, 117, 164);
+}
+
+.navbar-nav .nav-link {
+  color: blueviolet;
+  padding: 0 1rem;
+  font-weight: 500;
+}
+
+.head{
+  background-color: rgb(212, 216, 228);
+}
+.carousel-item img {
+  max-width: 50%;    
+  height: 400px;        
+  display: block;       
+  margin: 0 auto;       
+  border-radius: 40px;   
+}
+
+/* Make the image smaller on small screens */
+@media (max-width: 576px) {
+  .carousel-item img {
+    width: 90%;         
+    height: auto;       
+  }
+}
+
+
+/* Smaller and consistent card size */
+.course-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  font-size: 0.9rem;
+  overflow: hidden;
+}
+
+.course-card .card-img-top {
+  height: 150px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+.course-card .card-body {
+  padding: 1rem;
+}
+
+
+.new-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #f90;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+
+.badge-custom {
+  background-color: #fff3cd;
+  color: #856404;
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 0.25rem;
+  display: inline-block;
+}
+
+/* List spacing */
+.course-card ul {
+  padding-left: 1rem;
+  margin: 0.5rem 0;
+}
+
+.course-card ul li {
+  margin-bottom: 0.25rem;
+}
+
+/* Know more link */
+.course-card a {
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.carousel-inner .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.carousel-inner .col-md-4 {
+  padding: 10px;
+}
+
+/* Carousel buttons (optional) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  padding: 10px;
+}
+#jobs{
+  background-color: rgb(206, 226, 243);
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #cdcccc;
+    margin-top: 30px;
+  }
